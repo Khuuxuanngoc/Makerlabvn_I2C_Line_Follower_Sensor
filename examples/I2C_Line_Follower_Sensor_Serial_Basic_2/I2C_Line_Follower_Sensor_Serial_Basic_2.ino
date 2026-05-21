@@ -6,10 +6,10 @@
         - 5V  --- to ----5V
         - GND --- to ----GND
 */
-#include "Makerlabvn_I2C_Line_Follower_Sensor.h"
+#include "MKE_I2C_5C_LineTracking.h"
 
-Makerlabvn_I2C_Line_Follower_Sensor LineFollowSensor;
-Makerlabvn_I2C_Line_Follower_Sensor LineFollowSensor2;
+MKE_I2C_5C_LineTracking LineFollowSensor;
+MKE_I2C_5C_LineTracking LineFollowSensor2;
 
 void setup()
 {

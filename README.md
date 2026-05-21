@@ -78,9 +78,12 @@ void loop()
         - 5V  --- to ----5V
         - GND --- to ----GND
 */
-#include "Makerlabvn_I2C_Line_Follower_Sensor.h"
 
-Makerlabvn_I2C_Line_Follower_Sensor LineFollowSensor;
+#include "MKE_I2C_5C_LineTracking.h"
+MKE_I2C_5C_LineTracking LineFollowSensor;
+// // or
+// #include "Makerlabvn_I2C_Line_Follower_Sensor.h"
+// Makerlabvn_I2C_Line_Follower_Sensor LineFollowSensor;
 
 void setup()
 {

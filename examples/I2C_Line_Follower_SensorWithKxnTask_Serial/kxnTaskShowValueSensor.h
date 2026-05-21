@@ -2,12 +2,12 @@
 #define kxnTaskShowValueSensor_H
 
 #include "kxnTask.h"
-#include "Makerlabvn_I2C_Line_Follower_Sensor.h"
+#include "MKE_I2C_5C_LineTracking.h"
 
 
 CREATE_TASK(kxnTaskShowValueSensor)
 
-Makerlabvn_I2C_Line_Follower_Sensor LineFollowSensor;
+MKE_I2C_5C_LineTracking LineFollowSensor;
 
 void setup()
 {
